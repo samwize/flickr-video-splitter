@@ -24,7 +24,7 @@ Download the repository.
 
 	git clone https://github.com/samwize/flickr-video-splitter.git
 
-To split a video eg. ``/path/to/awesome-video.mp4`, do this
+To split a video eg. `/path/to/awesome-video.mp4`, do this
 
 	./split.sh /path/to/awesome-video.mp4
 
@@ -36,6 +36,4 @@ You will find the splitted videos such as `/path/to/awesome-video_1.mp4`, `/path
 Other Notes..
 =============
 
-The repository includes a copy of `ffmpeg` and `ffprobe`. The latest version can be downloaded from here: [ffmpeg](http://www.evermeet.cx/ffmpeg) and [ffprobe](http://www.evermeet.cx/ffprobe/ffprobe-1.2.1.7z)
-
-You can also cha
+The repository includes a copy of `ffmpeg` and `ffprobe`. The latest version can be downloaded from here: [ffmpeg](http://www.evermeet.cx/ffmpeg) and [ffprobe](http://www.evermeet.cx/ffprobe/ffprobe-1.2.1.7z). You can safely replace them with other versions.
