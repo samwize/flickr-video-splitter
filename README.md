@@ -37,3 +37,7 @@ Other Notes..
 =============
 
 The repository includes a copy of `ffmpeg` and `ffprobe`. The latest version can be downloaded from here: [ffmpeg](http://www.evermeet.cx/ffmpeg) and [ffprobe](http://www.evermeet.cx/ffprobe/ffprobe-1.2.1.7z). You can safely replace them with other versions.
+
+If you want to split a video in different chunk size eg. 300 seconds each (instead of 90 seconds), you can pass the chunk duration in the 2nd parameter.
+
+	./split.sh /path/to/awesome-video.mp4 3000

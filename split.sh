@@ -6,7 +6,8 @@ d=$(./ffprobe -loglevel error -show_format -show_streams "$filename" | grep dura
 echo "Video duration: $d sec"
 
 # Each chunk duration in sec. Flickr only can have 90 seconds..
-chunk_duration=90;
+chunk_duration=${2:?90};
+echo "Chunk duration: $chunk_duration sec"
 
 # This will get the number of chunks
 # A ceiling trick involved. For 90sec chunk, it basically add 89, then divide by 90.
